@@ -1,7 +1,6 @@
 var page_title = document.title;
 
 function changeTitle(ms){
-  console.log("changed");
   setTimeout(function(){
     var active = $(".nav").find(".active");
     var name = active[0].childNodes[1].dataset.value;
